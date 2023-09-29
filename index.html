@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Doğukan Koç tarafından hazırlanmış CV (Özgeçmiş) sitesidir.">
+    <meta name="keywords" content="Doğukan,Koç,Dogukan,Koc,CV,Özgeçmiş,Ozgecmis,Web Programlama">
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dogukan KOC</title>
+</head>
+<body id="top">
+    <main id="main">
+        <header id="main-header"  >
+            <h3 id="logo"><a href="#top">Dogukan Koc</a></h3>
+            <nav id="main-header__nav">
+                <ul id="main-header__nav__items">
+                    <!-- <li>
+                        <a href="index.html">Home</a>
+                    </li> -->
+                    <li>
+                        <a href="#about">Hakkımda</a>
+                    </li>
+                    <li>
+                        <a href="#education">Eğitim</a>
+                    </li>
+                    <li>
+                        <a href="#proje">Projelerim</a>
+                    </li>
+                    <li>
+                        <a href="#cv">Özgeçmiş</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="openMenu();">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer id="main-header__footer">
+                    <ul id="main-header__footer_ul">
+                        <li>
+                            <a href="https://www.linkedin.com/in/do%C4%9Fukan-ko%C3%A7-884758254/" target="linkedin" >
+                                <i class="fa-brands fa-linkedin fa-lg" title="linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/dgukan" target="git">
+                                <i class="fa-brands fa-github fa-lg" title="githup"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto: dogukan.koc.bt@gmail.com" target="mail">
+                                <i class="fa-solid fa-envelope fa-lg" title="email"></i>
+                            </a>
+                        </li>
+                    </ul>
+            </footer>
+        </header>
+        <div id="main-div">
+            <article id="main-article">
+                <section id="main-article__section">
+                    <div class="bg">
+                        <img src="./img/me-photo.png" alt="cv-fotoğrafı" class="hero-photo">
+                    </div>
+                    <div id="hero-text">
+                        <h1>DOGUKAN KOC</h1>
+                        <p>BT Öğrencisi</p>
+                    </div>
+                </section>
+                    <section id="about">
+                        <!-- create a flex item where there is a header, header supplement text and a paragraph explanation underneath, ensure multiple elements can go in -->
+                        <div id="about__section">
+                            <div id="about__section__header">
+                                <h3>HAKKIMDA</h3>
+                            </div>
+                            <div id="about__section__header__supplement">
+                                <!-- <p>Ege Üniversitesi 4. Sınıf Öğrencisiyim.</p> -->
+                                <p>Takım çalışmasına uyum sağlama yeteneğim ve hızlı öğrenme kabiliyetim sayesinde, takım projelerine önemli katkılar sunabilirim.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="education">
+                        <div id="education__section">
+                            <div id="education__section__header">
+                                <h3>EĞİTİM</h3>
+                            </div>
+                            <div id="education__section__header__supplement" class="bg">
+                                <img src="./img/egeüni.png" alt="Ege üniversitesi logo" class="hero-photo">
+                            </div>
+                            <div id="education__section__paragraph hero-text">
+                                <p style="font-variant: small-caps;">Bilgisayar ve Öğretim Teknolojileri Eğitimi</p>
+                                <p>2020-2024</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="proje">
+                        <div id="proje__section">
+                            <div id="proje__section__header">
+                                <h3>PROJELERİM</h3>
+                            </div>
+                            <div id="proje__section__header__supplement">
+                                <a href="#"><img src="./img/html5-css3.png" alt="html5-css3 logo" title="Github'a git" class="projem"></a>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="article-data">
+                        <div id="cv">
+                            <h3>ÖZGEÇMİŞ</h3>
+                            <a href="resume.pdf" target="_blank"><img src="./img/vector-users-icon.png" alt="users icon" id="cv-img" title="resume.pdf"></a>
+                        </div>
+                            
+                    </section>
+                    <section id="article-footer">
+                        <p> &copy; 2023, Tüm hakları saklıdır.</p>
+                    </section>
+            </article>
+        </div>
+    </main>
+</body>
+</html>
