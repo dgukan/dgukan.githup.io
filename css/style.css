@@ -43,7 +43,6 @@ html{
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     height: 50vh;
     padding: 3rem;
-    /* display: flex; */
 }
 
 #main-header__nav__items ul{
@@ -52,7 +51,6 @@ html{
 
 #main-header__nav__items li a{
     padding: 1rem 2rem;
-    /* width: 100%; */
     display: inline-block;
     margin-bottom : 1rem;
     color: #fff;
@@ -287,7 +285,6 @@ html{
 
     #main-header__nav__items{
         background: rgba( 0, 28, 64, 0.4 );
-        /* text-align: center; */
         width: 100%;
     }
 
